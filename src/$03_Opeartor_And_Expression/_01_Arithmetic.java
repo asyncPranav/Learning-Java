@@ -1,6 +1,6 @@
-package Opeartor_And_Expression;
+package $03_Opeartor_And_Expression;
 
-public class Arithmetic {
+public class _01_Arithmetic {
     public static void main(String[] args) {
         int a = 5, b = 2;
         System.out.println(a/b);

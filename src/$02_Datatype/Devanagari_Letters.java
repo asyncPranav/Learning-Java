@@ -1,4 +1,4 @@
-package Datatype;
+package $02_Datatype;
 
 public class Devanagari_Letters{
     public static void main(String[] args){

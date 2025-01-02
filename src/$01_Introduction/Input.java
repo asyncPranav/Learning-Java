@@ -1,4 +1,4 @@
-package Introduction;
+package $01_Introduction;
 import java.util.Scanner;
 
 public class Input {

@@ -1,7 +1,7 @@
-package Opeartor_And_Expression;
+package $03_Opeartor_And_Expression;
 import java.util.Scanner;
 
-public class Cuboid {
+public class _04_Cuboid {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         float l, b, h;

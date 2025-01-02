@@ -1,4 +1,4 @@
-package Introduction;
+package $01_Introduction;
 
 public class Primitive_Datatype {
     public static void main(String[] args) {

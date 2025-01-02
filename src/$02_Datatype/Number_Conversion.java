@@ -1,4 +1,4 @@
-package Datatype;
+package $02_Datatype;
 import java.util.Scanner;
 
 public class Number_Conversion{

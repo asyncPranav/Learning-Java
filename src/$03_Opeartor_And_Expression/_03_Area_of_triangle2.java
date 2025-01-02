@@ -1,7 +1,7 @@
-package Opeartor_And_Expression;
+package $03_Opeartor_And_Expression;
 import java.util.Scanner;
 
-public class Area_of_triangle2 {
+public class _03_Area_of_triangle2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         float a, b, c;
