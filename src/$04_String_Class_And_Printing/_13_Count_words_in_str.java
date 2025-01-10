@@ -14,7 +14,11 @@ public class _13_Count_words_in_str {
 
         //remove leading, tailing and extra spaces in between
         str = str.replaceAll("\\s+", " ").trim();
+
+        //split string in to words
         String[] words = str.split("\\s");
+
+        //no of words
         int words_count = words.length;
         System.out.println("Total number of words : "+words_count);
 
