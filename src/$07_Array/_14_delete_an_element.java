@@ -48,6 +48,7 @@ public class _14_delete_an_element {
         for(int i=0; i<n; i++){
             if(target==arr[i]){
                 target_location = i;
+                break;
             }
         }
 
