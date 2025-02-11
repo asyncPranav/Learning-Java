@@ -12,7 +12,7 @@ public class _09_Gcd_logic2 {
         while(x!=y){
             if(x>y){
                 x = x-y;
-            }else if(y>x){
+            }else{
                 y = y-x;
             }
         }
