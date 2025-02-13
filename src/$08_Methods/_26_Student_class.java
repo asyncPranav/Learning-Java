@@ -35,11 +35,23 @@ class Student{
         System.out.println("Grade : "+grade());
     }
     public String showDetails2(){
-        return "\nName : "+name+"\nRoll no : "+rollNo+"\nCourse : "+course+"\nMarks of three subjects : "+m1+", "+m2+", "+m3+"\nTotal marks : "+totalMarks()+"\nAverage marks : "+avgMarks()+"\nGrade : "+grade();
+        return "\nName : "+name+
+                "\nRoll no : "+rollNo+
+                "\nCourse : "+course+
+                "\nMarks of three subjects : "+m1+", "+m2+", "+m3+
+                "\nTotal marks : "+totalMarks()+
+                "\nAverage marks : "+avgMarks()+
+                "\nGrade : "+grade();
     }
     //in above method if we change method name from "showDetails2()" -> "toString()" , now check sout() in main()
     public String toString(){
-        return "\nName : "+name+"\nRoll no : "+rollNo+"\nCourse : "+course+"\nMarks of three subjects : "+m1+", "+m2+", "+m3+"\nTotal marks : "+totalMarks()+"\nAverage marks : "+avgMarks()+"\nGrade : "+grade();
+        return "\nName : "+name+
+                "\nRoll no : "+rollNo+
+                "\nCourse : "+course+
+                "\nMarks of three subjects : "+m1+", "+m2+", "+m3+
+                "\nTotal marks : "+totalMarks()+
+                "\nAverage marks : "+avgMarks()+
+                "\nGrade : "+grade();
     }
 }
 public class _26_Student_class {
