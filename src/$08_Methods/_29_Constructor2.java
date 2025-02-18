@@ -22,6 +22,15 @@ class Rectangle3{
         }
     }
 
+    //getter for length
+    public int getLength() {
+        return length;
+    }
+
+    //getter for width
+    public int getWidth() {
+        return width;
+    }
 
     //setter for length
     public void setLength(int l){
@@ -72,14 +81,18 @@ class Rectangle3{
 public class _29_Constructor2 {
     public static void main(String[] args) {
         Rectangle3 r1 = new Rectangle3(10,5);
-        System.out.println("===>> RECTANGLE-01");
+        System.out.println("------------------> RECTANGLE 01");
+        System.out.println("Length : "+r1.getLength());
+        System.out.println("Width : "+r1.getWidth());
         System.out.println("Area : "+r1.area());
         System.out.println("Perimeter : "+r1.perimeter());
         System.out.println("Is square : "+r1.isSquare());
         System.out.println("");
 
         Rectangle3 r2 = new Rectangle3(-10,5);
-        System.out.println("===>> RECTANGLE-02");
+        System.out.println("-------------------> RECTANGLE 02");
+        System.out.println("Length : "+r2.getLength());
+        System.out.println("Width : "+r2.getWidth());
         System.out.println("Area : "+r2.area());
         System.out.println("Perimeter : "+r2.perimeter());
         System.out.println("Is square : "+r2.isSquare());
