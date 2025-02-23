@@ -17,8 +17,7 @@ class Rectangle2{
     }
 
     public Rectangle2(int s){
-        length = s;
-        width = s;
+        length = width = s;
     }
 
     //area method
