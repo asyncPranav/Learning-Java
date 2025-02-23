@@ -1,5 +1,4 @@
 //using construction chaining to initialise uninitialised value to their default
-//--> null or empty value issue rather than providing string "N/A"
 
 package $08_Methods;
 
