@@ -11,14 +11,13 @@ public class StaticShow {
     }
 
     //static method
-    static public int initialiseVar(){
+    static int initialiseVar(){
         System.out.println("Initialising static variable");
         return 0;
     }
-    static public void staticMethod(){
+    static void staticMethod(){
         System.out.println("Inside Static method");
     }
-
 
     public static void main(String[] args) {
         System.out.println("Inside main method");

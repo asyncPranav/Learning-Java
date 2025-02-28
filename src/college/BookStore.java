@@ -119,11 +119,11 @@ public class BookStore {
                 case 2 -> bs.removeBook();
                 case 3 -> bs.displayBooks();
                 case 4 -> {
-                    System.out.println("\nExiting from program.....");
+                    System.out.println("\n ---> Exiting from program.....");
                     sc.close();
                     return; //to exit the main method and  terminate program
                 }
-                default -> System.out.println("Invalid option..!!");
+                default -> System.out.println("\n ---> Invalid option..!!");
             }
 
 
