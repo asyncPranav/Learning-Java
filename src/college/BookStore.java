@@ -36,17 +36,11 @@ public class BookStore {
     private int count = 0; //no of books in store
     private Scanner sc = new Scanner(System.in);
 
-    //constructor to initialise the array and scanner
-//    public BookStore(){
-//        books = new Book[2];
-//        count = 0;
-//        sc = new Scanner(System.in);
-//    }
 
     //add book in store
     public void addBook(){
         if(count>=books.length){ //checking no of books are not greater than store limit
-            System.out.println("\n ---> Store is full. Can't add more books..!!");
+            System.out.println("\n ---> Store is full..!!");
             return;
         }
 
@@ -119,7 +113,7 @@ public class BookStore {
                 case 2 -> bs.removeBook();
                 case 3 -> bs.displayBooks();
                 case 4 -> {
-                    System.out.println("\n ---> Exiting from program.....");
+                    System.out.println("\n ---> Exiting....\n");
                     sc.close();
                     return; //to exit the main method and  terminate program
                 }
