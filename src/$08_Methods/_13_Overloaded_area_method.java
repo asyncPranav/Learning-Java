@@ -27,7 +27,7 @@ public class _13_Overloaded_area_method {
         float b = sc.nextFloat();
 
         //call method area -> for area of rectangle calculation
-        System.out.println("Area of circle : "+area(l,b));
+        System.out.println("Area of rectangle : "+area(l,b));
 
     }
 }
