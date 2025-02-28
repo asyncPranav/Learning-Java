@@ -8,7 +8,7 @@ public class _13_Overloaded_area_method {
         return (float)Math.PI*r*r; //we have to cast result to float because Math.PI returns double by default
     }
 
-    //area of circle
+    //area of rectangle
     static float area(float l, float b){
         return l*b;
     }

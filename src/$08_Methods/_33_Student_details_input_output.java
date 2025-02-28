@@ -1,4 +1,5 @@
 //input details of 3 students and print them
+// here we are using concept of array of objects
 
 package $08_Methods;
 import java.util.Scanner;
