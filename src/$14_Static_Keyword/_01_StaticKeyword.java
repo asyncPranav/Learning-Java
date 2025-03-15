@@ -1,8 +1,11 @@
 package $14_Static_Keyword;
 
 class HondaCity{
+    //static variable
     static long price = 100;
     int a,b;
+
+    //static method
     static double onRoadPrice(String city){
         switch(city){
             case "delhi" : return price+price*0.4;
@@ -12,6 +15,8 @@ class HondaCity{
             default : return price+price*0.1;
         }
     }
+
+    //static varibale
     static int x=2;
     int y=3;
 }
