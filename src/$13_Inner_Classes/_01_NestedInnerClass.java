@@ -18,7 +18,7 @@ class Outer{
         System.out.println("Inner name : "+i.innerName);
     }
 }
-public class _01_InnerClass {
+public class _01_NestedInnerClass {
     public static void main(String[] args) {
 
         //object of Outer class
