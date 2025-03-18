@@ -9,7 +9,16 @@ public class _11_Count_digits {
         sc.close();
 
         int count=0;
-        for(int i=num; i>0; i/=10){
+
+        /* ---> fail when { num=0 } , it gives digits : 0
+
+            for(int i=num; i>0; i/=10){
+                count++;
+            }
+
+         */
+
+        for(int i=num; i>0 || count==0; i/=10){
             count++;
         }
 
