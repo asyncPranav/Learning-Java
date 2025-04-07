@@ -12,13 +12,13 @@ public class _04_Calculator extends Frame implements ActionListener {
 
         // Top text field
         tf = new TextField();
-        tf.setFont(new Font("Arial", Font.BOLD, 22));
+        tf.setFont(new Font("Arial", Font.PLAIN, 20));
         tf.setEditable(false);
         add(tf, BorderLayout.NORTH);
 
         // Button panel with GridLayout
         Panel panel = new Panel();
-        panel.setLayout(new GridLayout(4, 4, 5, 5));
+        panel.setLayout(new GridLayout(4, 4, 0, 0));
         String[] buttons = {
                 "7", "8", "9", "/",
                 "4", "5", "6", "*",
