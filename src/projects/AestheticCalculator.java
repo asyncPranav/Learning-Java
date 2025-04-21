@@ -38,10 +38,10 @@ public class AestheticCalculator extends Frame implements ActionListener {
         add(t2);
 
         // Buttons
-        add = createButton("+", 30);
-        sub = createButton("-", 95);
-        mul = createButton("×", 160);
-        div = createButton("÷", 225);
+        add = createButton("+", 30, buttonFont);
+        sub = createButton("-", 95, buttonFont);
+        mul = createButton("×", 160, buttonFont);
+        div = createButton("÷", 225, buttonFont);
         add(add);
         add(sub);
         add(mul);
@@ -77,12 +77,12 @@ public class AestheticCalculator extends Frame implements ActionListener {
         return tf;
     }
 
-    private Button createButton(String label, int x) {
+    private Button createButton(String label, int x, Font font) {
         Button b = new Button(label);
         b.setBounds(x, 210, 50, 40);
         b.setBackground(new Color(200, 220, 240));
         b.setForeground(new Color(40, 40, 70));
-        b.setFont(new Font("Segoe UI", Font.BOLD, 18));
+        b.setFont(font);
         b.addActionListener(this);
         return b;
     }
